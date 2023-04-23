@@ -2,7 +2,13 @@
 because Quill ImageHandler has some issues, when copied content that contains image both text, it will upload above all with a single image,image and text merge to a single image, no text part;
 its not too good. then, i add a logic,if it contain image and text. it will stop upload function, we can upload image by upload buttons at the top toolbar。
 
-![Image](/static/exp.png)
+Quill ImageHandler logic, it will upload above all with a single image,image and text merge to a single image, no text part
+![Image](/static/exp2.png)  
+
+this is change logic image, it will stop upload function,text is copyied, image need you upload by upload buttons at the top toolbar。
+![Image](/static/exp.png)  
+
+of course，we can also upload image,replace base64 image width uploaded urls before we post form, see [html-base64-img-to-upload](https://www.npmjs.com/package/html-base64-img-to-upload)
 
 ```bash
 npm install quill-image-upload-2 --save
