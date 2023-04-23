@@ -1,5 +1,5 @@
 {
-    "name": "quill-image-upload-2",
+    "name": "quill-image-upload-v2",
     "version": "1.2.5",
     "repository": "https://github.com/xiangchuifeng/quill-image-upload-2.git",
     "description": "A module for Quill rich text editor to allow images to be uploaded to a server instead of being base64 encoded",

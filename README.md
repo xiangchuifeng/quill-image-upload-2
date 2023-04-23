@@ -11,20 +11,20 @@ this is change logic image, it will stop upload function,text is copyied, image 
 of course，we can also upload image,replace base64 image width uploaded urls before we post form, see [html-base64-img-to-upload](https://www.npmjs.com/package/html-base64-img-to-upload)
 
 ```bash
-npm install quill-image-upload-2 --save
+npm install quill-image-upload-v2 --save
 ```
 
 ```javascript
 import Quill from "quill";
-import ImageUpload2 from "quill.imageUpload.js";
+import ImageUploadV2 from "quill-image-uploader-v2";
 
-Quill.register("modules/imageUpload2", imageUpload2);
+Quill.register("modules/ImageUploadV2", ImageUploadV2);
 
 const quill = new Quill(editor, {
   // ...
   modules: {
     // ...
-    imageUpload2: {
+    ImageUploadV2: {
       upload: (file) => {
         return new Promise((resolve, reject) => {
           setTimeout(() => {
