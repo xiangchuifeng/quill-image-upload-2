@@ -3,6 +3,7 @@ because Quill ImageHandler has some issues, when copied content that contains im
 its not too good. then, i add a logic,if it contain image and text. it will stop upload function, we can upload image by upload buttons at the top toolbar。
 
 ![Image](/static/exp.png)
+
 ```bash
 npm install quill-image-upload-2 --save
 ```
@@ -36,7 +37,7 @@ const quill = new Quill(editor, {
 
 > balabala
 
-see [Quill ImageHandler]('https://github.com/NoelOConnell/quill-image-uploader')  
+see [Quill ImageHandler](https://github.com/NoelOConnell/quill-image-uploader)  
 
 Quill ImageHandler is below :  
 
